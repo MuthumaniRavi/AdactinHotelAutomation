@@ -87,8 +87,11 @@ public class LoginPage extends BaseLib {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		System.out.println("hi saravana");
+		int a = 10;
+		int b = 20;
+		int c = 30;
+		System.out.println(a - b + c);
+		System.out.println("login by using keys");
 	}
-
-	
 
 }
