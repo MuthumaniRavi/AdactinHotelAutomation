@@ -42,6 +42,11 @@ public class HooksClass extends BaseLib {
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		byte[] screenshotAs = screenshot.getScreenshotAs(OutputType.BYTES);
 		scenario.embed(screenshotAs, "Every Scenario");
+		System.out.println("screenshot was taken");
+		System.out.println("screenshot was taken");
+		System.out.println("screenshot was taken");
+		System.out.println("screenshot was taken");
+		System.out.println("screenshot was taken");
 		closeCurrentWindow();
 	}
 }
