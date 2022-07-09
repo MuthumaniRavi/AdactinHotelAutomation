@@ -59,7 +59,8 @@ public class LoginPageStep extends BaseLib {
 	@Then("User verify error contains after login{string}")
 	public void userVerifyErrorContainsAfterLogin(String expected) {
 		Assert.assertTrue("Verify Error Message", getText(pom.getLoginPage().getErrorMessage()).contains(expected));
-
+		System.out.println("hi, java");
+		System.out.println("hi, java");
 	}
 
 }
